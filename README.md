@@ -8,3 +8,6 @@ Existem n panquecas, todas de tamanhos diferentes, empilhadas umas sobre as outr
 
 ## TORRE DE HANOI
 Resolver o problema da Torre de Hanói quando se dispõe de 4 torres, em vez de 3. Determinar o número de movimentos de disco.
+
+## AGENDAMENTO
+Considere o problema de agendamento de intervalos. Nós temos um conjunto de atividades {1,2, ... n}; cada atividade i possui um intervalo de tempo a partir de si e termina em fi. Um agendamento — conjunto de atividades — é dito compatível, se nenhuma atividade se sobrepõem no tempo. O objetivo é determinar um agendamento compatível com o maior número possível de atividades. Projete um algoritmo para este problema.
