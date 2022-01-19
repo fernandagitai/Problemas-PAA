@@ -37,16 +37,22 @@ def entrada():
     return pares
 
 def printar_convidados(convidados):
-    saida = "Convidados: "
+    saida_convidados = "Convidados: "
+    saida_nao_convidados = "Nao convidados: "
 
     for i in range(len(convidados)):
 
         if convidados[i]:
-            if saida != "Convidados: ":
-                saida += ", "
-            saida += str(i)
+            if saida_convidados != "Convidados: ":
+                saida_convidados += ", "
+            saida_convidados += str(i)
+        else:
+            if saida_nao_convidados != "Nao convidados: ":
+                saida_nao_convidados += ", "
+            saida_nao_convidados += str(i)
 
-    print("\n" + saida + "\n")
+    print("\n" + saida_convidados)
+    print(saida_nao_convidados + "\n")
 
 def main():
     pares = entrada()
